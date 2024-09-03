@@ -30,7 +30,7 @@ class BasicAuth(Auth):
             self,
             base64_authorization_header: str,
             ) -> str:
-        """Decodes a base64-encoded authorization header.
+        """Decode base64-encoded authorization header.
         """
         if isinstance(base64_authorization_header, str):
             try:
